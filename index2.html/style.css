@@ -64,3 +64,22 @@ body {
         color: #dbdbdb;
 
     }
+
+    .input-area button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        padding: 8px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 1.1rem;
+        background: rgba(255, 194, 209, 0,3);
+        border: 2px solid rgba(255, 255, 255, 0,18);
+        transition: all 0.2s ease;
+    }
+
+    .input-area button:hover {
+        transform: scale(1.1);
+        background: #ff6f91;
+    }
