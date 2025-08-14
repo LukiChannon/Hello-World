@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const toggleEmptyState = () => {
         emptyImage.computedStyleMap.display = taskList.children.length === 0 ? 'block' : 'none';
-      }
+      };
 
     const addTask = (event) => {
         event.preventDefault();
@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Li.textContent = taskText;
         taskList.appendChild(li);
         taskInput.value = '';
+        toggleEmptyState();
     };
 
     addTaskBtn.addEventListener('click', addTask);
