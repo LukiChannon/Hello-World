@@ -1,0 +1,48 @@
+
+
+
+body{
+        background-color: #1d2e4c;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 10px solid blanchedalmond;
+
+    
+}
+
+h2{
+    color: aquamarine;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p{
+    display: flex;
+
+    background-color: gray;
+    color: white;
+    
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    border: solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+input{
+    border: 10px;
+    margin: 10px;
+    padding: 20px;
+
+}
