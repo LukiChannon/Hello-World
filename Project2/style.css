@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+  
 }
 .topnav {
     overflow: hidden;
@@ -27,6 +27,7 @@ body {
 .content {
     background-color: #ddd;
     padding: 10px;
+
 }
 .footer {
     background-color: #f1f1f1;
