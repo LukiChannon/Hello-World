@@ -24,7 +24,7 @@ body{
     background-color: #c10fc1;
     overflow-x: hidden;
     border: rgb(105, 183, 214) 1px solid;
-    color: turquoise;
+    color: rgb(105, 183, 214);
 }
 
 .content {
@@ -34,7 +34,7 @@ body{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(105, 183, 214)
 }
 
 img {
@@ -42,4 +42,5 @@ img {
     height: 150px;
     border-radius: 50%;
     border: 2px solid rgb(105, 183, 214);
+    background-attachment: fixed;
 }
