@@ -44,3 +44,34 @@ img {
     border: 2px solid rgb(105, 183, 214);
     background-attachment: fixed;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    color: rgb(105, 183, 214);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid rgb(105, 183, 214);
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #c10fc1;
+    color: rgb(105, 183, 214);
+    border: 1px solid rgb(105, 183, 214);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(105, 183, 214);
+}
