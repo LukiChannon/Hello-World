@@ -1,20 +1,13 @@
-const input = document.getElementById("input");
-const add = document.getElementById("add");
-const list = document.getElementById("list");
+let btn = document.getElementById("btn");
+let input = document.getElementById("text");
+let list = document.getElementById("myList");
 
-add.addEventListener("click", () => {
-  const text = input.value.trim();
+btn.addEventListener("click", addToList);
 
-  if (text !== "") {
-    const li = document.createElement("li");
-    li.textContent = text;
-
-    // click = remove task
-    li.addEventListener("click", () => {
-      li.remove();
-    });
-
-    list.appendChild(li);
+function addToList() {
+    let li = document.createElement("li");
+    li.textContent = input.value;
+    li.innerHTML = txt;
+    list.append(li);
     input.value = "";
-  }
-});
+}
