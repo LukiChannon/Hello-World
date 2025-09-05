@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
- a{
+a{
   text-decoration: none;
   color: white;
 }
@@ -38,6 +38,8 @@ header a {
   gap: 20px;
   padding-bottom: 20px;
 }
+
+
 
 .project {
   display: flex;
@@ -71,7 +73,7 @@ footer {
 }
 
 .project img {
-  width: 340px;
+  width: 3%=px;
   height: 300px;
   border-radius: 10px;
 }
