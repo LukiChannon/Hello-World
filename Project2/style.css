@@ -1,93 +1,60 @@
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #0e0e0e;
-}
-.topnav {
-    background-color: #a555ca;
-    color: white;
-    padding: 20px;
-    margin: 10px;
-    font-size: 1.5em;
-    border-radius: 8px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.topnav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    justify-content: center;
+body {
+  font-family: 'Poppins';
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
-
-.footer {
-    background-color: #a555ca;
-    color: white;
-    padding: 10px;
-    justify-content: flex-end;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    margin: 10px;
-    border-radius: 8px;
+ a{
+  text-decoration: none;
+  color: white;
+}
+header {
+  width: 1140px;
+  max-width: 80%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+header a {
+  margin-right: 40px;
 }
 
 .content {
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    text-align: center;
-}
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  background: #c09820;
-  color: #443f6b;
-}
-
-h1, .topnav a {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-template-rows: auto;
-  padding: 20px;
-  justify-items: center;
-}
-
-.item1 {
-  background-color: #a555ca;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 8px;
-  width: 150px;
-  height: 150px;
+  width: 1140px;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
   display: flex;
+  justify-items: center;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 
-.item2 {
-  background-color: #f0f0f0;
+.project {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+  margin: 20px;
+  width: 100%;
+  height: 200px;
+  /* Glassmorphism effect */
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+
 }
 
-.item3 {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-}
-.item4 {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-}
