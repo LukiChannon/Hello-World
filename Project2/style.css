@@ -48,7 +48,7 @@ header a {
   padding: 20px;
   margin: 20px;
   width: 100%;
-  height: 200px;
+  height: auto;
   /* Glassmorphism effect */
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -56,5 +56,23 @@ header a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+  color: #888;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.project img {
+  width: 340px;
+  height: 300px;
+  border-radius: 10px;
 }
 
