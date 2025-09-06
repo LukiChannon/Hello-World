@@ -69,12 +69,18 @@ footer {
   bottom: 0;
   width: 100%;
   margin: auto;
+  font-size: 12px;
   overflow: hidden;
 }
 
 .project img {
-  width: 3%=px;
+  width: 300px;
   height: 300px;
   border-radius: 10px;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
