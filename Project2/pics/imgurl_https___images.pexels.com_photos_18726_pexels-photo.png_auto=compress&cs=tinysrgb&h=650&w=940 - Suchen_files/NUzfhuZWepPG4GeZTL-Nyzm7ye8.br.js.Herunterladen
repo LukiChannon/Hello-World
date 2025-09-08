@@ -1,0 +1,1 @@
+var B;(function(n){var t;(function(){var n,t=(_G===null||_G===void 0?void 0:_G.BDPLCD)||!1;((n=window.BDPLC)===null||n===void 0?void 0:n.runInternal)&&window.BDPLC.runInternal(Log,sj_cook,t)})(t=n.T||(n.T={}))})(B||(B={}))

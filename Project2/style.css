@@ -21,6 +21,7 @@ header {
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 header a {
   margin-right: 40px;
@@ -57,7 +58,6 @@ header a {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-
 }
 
 footer {
@@ -70,7 +70,7 @@ footer {
   width: 100%;
   margin: auto;
   font-size: 12px;
-  overflow: hidden;
+  
 }
 
 .project img {
@@ -84,3 +84,32 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 
+.container {
+  width: 900px ;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+svg {
+  width: 30px;}
+
+.listProduct .item img {
+  width: 90px;
+ filter: drop-shadow(2px 4px 6px black);
+}
+.listProduct {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
